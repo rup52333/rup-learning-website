@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Website Layout</title>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVwOnKXp92Lox_U7J75iTMTW_QDM9K2uEAz8X-hu0TeQ&s"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Connect</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img class="image" src="https://media.istockphoto.com/id/1388013584/photo/cloud-computing-technology-concept-transfer-database-to-cloud-there-is-a-large-cloud-icon.webp?s=1024x1024&w=is&k=20&c=7I4plf6Thyq0oRlBrNzLkdhPc211xwIbx8-U2bjExzA=">
+			<div class="carousel-caption">
+				<h1 class="display-2">Website</h1>
+				<h3>Complete Website Layout</h3>
+				<button type="button" class="btn btn-outline-light btn-lg">VIEW
+				DEMO</button>
+				<button type="button" class="btn btn-primary btn-lg">Get Started</button>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img class="image" src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+		</div>
+		<div class="carousel-item">
+			<img class="image" src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+		</div>
+	</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">A web hosting service allows individuals and
+				organizations to make their website accessible via the World
+				Wide Web.</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="#"><button type="button" class="btn btn-outline-secondary
+			btn-lg">Web Hosting</button></a>
+		</div>
+	</div>
+</div>
+
+<!--- Welcome Section -->
+<div class="container-fluid padding"data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Built with ease.</h1>
+		</div>
+		<hr>
+		<div class="col-12">
+			<p class="lead">Welcome to my website tutorial!
+				Bootstrap is a free and open-source front-end library with HTML and
+				CSS based designs.</p>
+		</div>
+	</div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding"data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-code"></i>
+			<h3>HTML5</h3>
+			<p>Built with the latest version of HTML, HTML5.</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-bold"></i>
+			<h3>BOOTSTRAP</h3>
+			<p>Built with the latest version of Bootstrap, Bootstrap 4.</p>
+		</div>
+		<div class="col-xs-12 col-md-4">
+			<i class="fab fa-css3"></i>
+			<h3>CSS3</h3>
+			<p>Built with the latest version of CSS, CSS3.</p>
+		</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding"data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row padding">
+		<div class="col-md-12 col-lg-6">
+			<h2>If you build it...</h2>
+			<p>The columns will automatically stack on each other when
+				the screen is less than 576px wide.</p>
+			<p>Resize the browserwindow to see the effect. Responsive web
+				design has become more important as the amount of mobile traffic now
+				accounts for more than half of total internet traffic.</p>
+			<p>It can also display the web page differently depending on the
+				screen size or viewing device.</p>
+				<br>
+				<a href="#" class="btn btn-primary">Learn More</a>
+		</div>
+		<div class="col-lg-6">
+			<img src="https://images.pexels.com/photos/4307866/pexels-photo-4307866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid">
+		</div>
+	</div>
+</div>
+
+<hr class="my-4">
+
+
+<!--- Meet the team -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Meet the Team </h1>
+		</div>
+	</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80">
+				<div class="card-body">
+					<h4 class="card-title">John Doe</h4>
+					<p class="card-text">John is an Interent
+						entrepreneur with almost 20 years of experience.
+					</p>
+					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80">
+				<div class="card-body">
+					<h4 class="card-title">Mary Jo</h4>
+					<p class="card-text">Mary is a designer with a almost 10 years
+					of digital design experience.</p>
+					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80">
+				<div class="card-body">
+					<h4 class="card-title">Phil Ho</h4>
+					<p class="card-text">Phil is an developer with over 5 years
+					of web development experience.</p>
+					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row padding">
+		<div class="col-md-12 col-lg-6">
+			<h2>Our Philosophy</h2>
+			<p>We know that greatness in a disruptive era requires bold
+				ambition, curious talent and a culture that believes we're
+			    smarter together.</p>
+			<p>We approach every challenge hostically, with best-in-class
+				expertise in data, creativity, media, technology, search, social and
+				more. We call this Alchemy. It has the power to build our clients'
+				brands and transform their business. And white it may seem like
+				magic, we've got it down to a science.
+			</p>
+
+		</div>
+		<div class="col-lg-6">
+			<img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="img-fluid">
+		</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<!--- Connect -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Connect</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+		<div class="row text-center">
+			<div class="col-md-4 pt-0">
+				<div class="footer-image">
+				<img src="data:image/png;base64,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"></div>
+				<hr class="light">
+				<p>555-555-5555</p>
+				<p>email@hhemail.com</p>
+				<p>69 Street Name</p>
+				<p>City, State, 888</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Our hours</h5>
+				<hr class="light">
+				<p>Monday: 9am - 5pm</p>
+				<p>Saturday: 10am - 4pm</p>
+				<p>Sunday: Closed</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Service Area</h5>
+				<hr class="light">
+				<p>City, State, 900</p>
+				<p>City, State, 800</p>
+				<p>City, State, 700</p>
+				<p>City, State, 600</p>
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy; Website Learning </h5>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+</body>
+</html>
