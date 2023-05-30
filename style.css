@@ -1,6 +1,10 @@
+
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-html, body{
+/* 
+ */
+ html, body{
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
@@ -8,36 +12,150 @@ html, body{
 }
 .navbar{
   padding: .8rem;
+  background-color:white!important;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 80;
+  
+  
 }
 .navbar-brand img{
-  width: 150px;
-  height: 70px;
+  width: 220px;
+  height: 100px;
 }
 .navbar-nav li{
   padding-right: 20px;
+  display: flex;
+  list-style: none;
+  font-weight: bold;
 }
+.navbar-nav li:hover{
+background-color: green;
+
+}
+
 .nav-link{
   font-size: 1.1em !important;
+  text-align: center;
+
 }
-.carousel-inner img{
+
+
+
+#sign-up{
+margin-left: 100px;
+border: 2px solid blue;
+
+
+}
+
+@media (max-width: 600px) {
+  #sign-up {
+    border: 2px solid blue;
+    text-align: center;
+  }
+}
+
+
+
+.welcome-div{
+  
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    position: fixed;
+    z-index: 80;
+    width: 100%;
+
+    top: 100px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background-color: #2f80ed;
+margin-bottom: 550px;
+
+}
+
+
+
+
+
+
+
+#slides{
   width: 100%;
+  margin-top: 180px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  background: url(/_next/static/media/purple_arraow.e16eb7db.svg);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+  background-position: 57% 43%;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  position: sticky;
 }
-.carousel-caption {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
-.carousel-caption h1 {
-  font-size: 500%;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 10px #000;
+#h{
+margin-top: 250px;
+
 }
-.carousel-caption h3 {
-  font-size: 200%;
-  font-weight: 500;
-  text-shadow: 1px 1px 10px #000;
-  padding-bottom: 1rem;
+
+
+.container-fluid img{
+
+
+  position: relative;
+  overflow-x: auto;
+  width: 100%;
+  max-width: 100%;
 }
+
+
+.image-div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-div img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-title {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .btn-primary {
   background-color: #6648b1;
   border: 1px solid #564d7c;
@@ -252,7 +370,6 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
 
 
 
